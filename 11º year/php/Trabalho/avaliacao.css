@@ -1,0 +1,45 @@
+*{
+cursor: url(img/pinkheart_normalselect.cur),default;
+    
+}
+
+/*////////////////////////////////////////////////////////////////////////*/
+
+body {
+    background-image: url(img/fundo.jpg);
+    background-size: 500px;
+    background-position-y:top;
+    background-position-x: center; 
+    background-repeat: no-repeat; 
+    margin: 100px;
+    text-align: center;
+}
+h2{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(206, 92, 121);
+}
+h3{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(66, 104, 54);
+}
+
+/*////////////////////////////////////////////////////////////////////////*/
+
+form{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(66, 104, 54);
+}
+
+button {
+    padding: 10px;
+    background: rgb(206, 92, 121);
+    color: white;
+    border: none;
+    cursor: url(img/pinkheart_linkselect.cur),pointer;
+}
+
+/*////////////////////////////////////////////////////////////////////////*/
+
+footer{
+    color:rgb(66, 104, 54);
+}

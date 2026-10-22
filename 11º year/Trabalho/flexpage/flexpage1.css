@@ -1,0 +1,181 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    --corfundo: #F3F3F3;
+    --corcaixa: #FBF7F6;
+    --corbot: #F57D31;
+    --corfooter: #A8D26C;
+}
+
+
+header {
+    display: flex;
+    width: 70%;
+    background-color: var(--corcaixa);
+    padding: 10px;
+    margin: auto;
+}
+
+#logo {
+    width: 7%;
+
+}
+
+#esquerda {
+    display: flex;
+    align-items: center;
+}
+
+#direita {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 20%;
+}
+
+.navlink {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: black;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 25px;
+    margin-left: 7%;
+}
+
+.botao {
+    text-decoration: none;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 13px;
+    background-color: white;
+    font-weight: bold;
+    color: black;
+    padding: 10px 25px 10px 25px;
+    border-radius: 5px;
+    width: 52px;
+    text-align: center;
+}
+
+.laranja {
+    background-color: var(--corbot);
+    padding: 10px 20px 10px 20px;
+
+}
+
+body {
+    background-color: var(--corfundo);
+}
+
+main {
+    background-color: var(--corcaixa);
+    display: flex;
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+}
+
+@font-face {
+    font-family: "Mirage";
+    src: url(font/made_mirage/MADE\ Mirage\ Black\ PERSONAL\ USE.otf);
+}
+
+#titulo {
+    font-family: "Mirage";
+    font-weight: bolder;
+    font-size: 47px;
+    margin-top: 20px;
+}
+
+@font-face {
+    font-family: "Guthen";
+    src: url(font/guthen_bloots/Guthen\ Bloots\ Personal\ Use.ttf);
+}
+
+#titulo2 {
+    font-family: "Guthen";
+    font-weight: lighter;
+    font-size: 50px;
+    margin-top: -45px;
+}
+
+#paragrafo {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 55%;
+}
+
+#maindir {
+    width: 65%;
+}
+
+#mainesq {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 40px 0px 40px 80px;
+}
+
+#mainimg {
+    width: 258%;
+}
+
+.setence {
+    font-family: "Guthen";
+    font-size: 20px;
+}
+#frasseta {
+    display: flex;
+    gap: 5px;
+}
+#seta {
+    padding-top: 10px;
+    width: 25px;
+    height: 25px;
+}
+#maindir {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    margin-top: 50px;
+    padding-bottom: 30px;
+}
+#mainbaixo{
+    display: flex;
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+    padding: 30px 10px 30px 10px;
+    background-color: white;
+    margin:auto;
+    border-radius: 20px;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.25);
+    
+}
+.logos{
+    width: 10%;
+    height: 10%;
+}
+#baixo2{
+    background-image: linear-gradient(to-bottom, var(--corcaixa)10%,white);
+    width: 60%;
+    padding: 10PX;
+    margin: auto;
+    margin-top: 30px;
+}
+footer {
+    width: 60%;
+    background-image: url(img/flexpage1/footerfundo.png);
+    padding: 30px 10px 30px 10px;
+    margin: auto;
+}
+.foot {
+    font-family: "Guthen";
+    font-size: 20px;
+    margin-left: 50px;
+}

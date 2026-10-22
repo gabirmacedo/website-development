@@ -1,0 +1,24 @@
+body {
+    background-image: linear-gradient(to bottom,rgb(230, 245, 255), rgb(251, 251, 251));
+    background-attachment: fixed;
+}
+h1 {
+    font-family: "Playwrite DE SAS", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 70px;
+}
+h3 {
+    font-family: "Inconsolata", cursive;
+    font-style: normal;
+    font-size: 30px;
+}
+p {
+    font-family: "Playwrite DE SAS", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 1.6;
+    margin: 0 15%;
+}

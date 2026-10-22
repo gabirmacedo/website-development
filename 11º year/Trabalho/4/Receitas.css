@@ -1,0 +1,78 @@
+header{
+    background-color: #ffe4dc;
+    color: #bf9c9c;
+    text-align: center
+}
+main{
+    background-color: #fff5f2;
+}
+footer{
+    background-color: #d6b8aa;
+    color: #8f6d5d;
+}
+@font-face {
+    font-family: 'h1';
+    src: url(font/AmaticSC-Regular.ttf);
+}
+@font-face {
+    font-family: 'h2';
+    src: url(font/EduNSWACTCursive-Regular.ttf);
+}
+@font-face {
+    font-family: 'a';
+    src: url(font/FuzzyBubbles-Regular.ttf);
+}
+@font-face {
+    font-family: 'p';
+    src: url(font/Merienda-Regular.ttf);
+}
+@font-face {
+    font-family: 'li';
+    src: url(font/PlaywriteDESAS-Regular.ttf);
+}
+nav{
+    border-top: solid 3px #b38a8a; 
+    border-bottom: solid 3px #b38a8a; 
+}
+hr{
+    color: #b38f8f;
+}
+h1{
+    text-align: center;
+    font-family: 'h1';
+    font-size: 65px;
+}
+h2{
+    text-align: center;
+    font-family: 'h2';
+    color: #b38a8a;
+    font-size: 35px;
+}
+h3{
+    font-family: 'h2';
+}
+h4{
+    font-family: 'h2';
+}
+p{
+    font-family: 'p';
+}
+a{
+    color: #bf9c9c;
+    text-decoration: none;
+    font-family: 'a';
+    font-size: 30px;
+    font-style: bold;
+}
+li{
+    font-family: 'li';
+}
+section{
+    color: #a08391;
+    font-size: 25px;
+}
+.mainimg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
